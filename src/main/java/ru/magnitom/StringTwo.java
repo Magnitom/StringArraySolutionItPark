@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class StringTwo {
     public static void main(String[] args) {
+        System.out.println("Дана строка нечетной длины. Вывести в консоль символ, который находится ровно посередине слова.");
         Scanner input = new Scanner(System.in);
         System.out.println("Введите число с нечётным количеством символов: ");
         String stringInput;
